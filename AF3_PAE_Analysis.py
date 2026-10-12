@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 11 22:49:06 2026
 
-@author: ghilp
-"""
 import json
 import numpy as np
 
