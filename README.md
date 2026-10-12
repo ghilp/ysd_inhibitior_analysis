@@ -3,9 +3,7 @@ Analysis scripts for NGS sequencing data and AlphaFold 3 structural predictions 
 
 ## Overview
 
-This repository contains Python scripts used to analyze sequencing data from selected yeast populations and evaluate structural confidence metrics for AlphaFold 3-predicted protein configurations.
-
-The scripts support the analysis of protease inhibitor variants and the characterization of predicted protein complexes used in the study.
+This repository contains Python scripts used to analyze next-generation sequencing (NGS) data from selected yeast populations and structural confidence metrics from AlphaFold 3 predictions.
 
 ## Scripts
 `NGS_Analysis.py`
@@ -32,8 +30,8 @@ pip install -r requirements.txt
 
 The scripts require input files appropriate to each analysis:
 
-- NGS analysis: FASTQ sequencing files, optionally compressed as .fastq.gz, depending on the input handling implemented in the script.
-- AlphaFold 3 analyses: Corresponding model .json and .cif files, as required by each script.
+- **NGS analysis:** FASTQ sequencing files, optionally compressed as .fastq.gz.
+- **AlphaFold 3 analyses:** Corresponding .json and .cif files from AlphaFold3 predictions. 
 
 Input files are not included in this repository unless explicitly provided. Users must supply the appropriate files and configure the input paths and analysis parameters before running the scripts.
 
@@ -52,7 +50,7 @@ The scripts generate analysis outputs such as processed sequencing data, sequenc
 
 ## Reproducibility
 
-To reproduce the analyses reported in the associated study, users should use the appropriate input data and the same analysis parameters described in the manuscript and Supplementary Information.
+The scripts and dependency list are provided to support reproducibility of the analyses described in the associated manuscript.
 
 ## License
 
