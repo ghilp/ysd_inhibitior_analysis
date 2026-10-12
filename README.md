@@ -20,7 +20,7 @@ Analyzes predicted aligned error (PAE) values from AlphaFold 3 output files to c
 
 ## Requirements
 
-Python 3 and the packages listed in requirements.txt are required.
+Python 3 and the packages listed in `requirements.txt` are required.
 
 Install the dependencies using:
 
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 
 The scripts require input files appropriate to each analysis:
 
-- **NGS analysis:** FASTQ sequencing files, optionally compressed as .fastq.gz.
-- **AlphaFold 3 analyses:** Corresponding .json and .cif files from AlphaFold3 predictions. 
+- **NGS analysis:** FASTQ sequencing files, optionally compressed as `.fastq.gz.`
+- **AlphaFold 3 analyses:** Corresponding `.json` and `.cif` files from AlphaFold3 predictions. 
 
 Input files are not included in this repository. Users must supply the appropriate files and configure the input paths and analysis parameters before running the scripts.
 
