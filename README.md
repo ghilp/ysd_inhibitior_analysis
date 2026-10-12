@@ -8,15 +8,15 @@ This repository contains Python scripts used to analyze sequencing data from sel
 The scripts support the analysis of protease inhibitor variants and the characterization of predicted protein complexes used in the study.
 
 ## Scripts
-'NGS_Analysis.py'
+`NGS_Analysis.py`
 
 Processes FASTQ sequencing data and identifies amino acid sequences matching specified motifs or flanking sequences. The analysis can be used to identify and quantify sequence variants in selected populations.
 
-'AF3_pLDDT_Analysis.py'
+`AF3_pLDDT_Analysis.py`
 
 Analyzes per-residue predicted Local Distance Difference Test (pLDDT) scores from AlphaFold 3 output files to summarize structural confidence over specified protein residue ranges.
 
-'AF3_PAE_Analysis.py
+`AF3_PAE_Analysis.py`
 
 Analyzes predicted aligned error (PAE) values from AlphaFold 3 output files to characterize predicted confidence in the relative positioning of protein components.
 
@@ -32,8 +32,8 @@ pip install -r requirements.txt
 
 The scripts require input files appropriate to each analysis:
 
-NGS analysis: FASTQ sequencing files, optionally compressed as .fastq.gz, depending on the input handling implemented in the script.
-AlphaFold 3 analyses: Corresponding model .json and .cif files, as required by each script.
+- NGS analysis: FASTQ sequencing files, optionally compressed as .fastq.gz, depending on the input handling implemented in the script.
+- AlphaFold 3 analyses: Corresponding model .json and .cif files, as required by each script.
 
 Input files are not included in this repository unless explicitly provided. Users must supply the appropriate files and configure the input paths and analysis parameters before running the scripts.
 
