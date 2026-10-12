@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 11 22:38:55 2026
 
-@author: ghilp
-"""
 # Setup
 import os
 import glob
