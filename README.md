@@ -16,7 +16,7 @@ Analyzes per-residue predicted Local Distance Difference Test (pLDDT) scores fro
 
 `AF3_PAE_Analysis.py`
 
-Analyzes predicted aligned error (PAE) values from AlphaFold 3 output files to characterize predicted confidence in the relative positioning of protein components.
+Analyzes predicted aligned error (PAE) values from AlphaFold 3 output files to characterize predicted confidence in the relative positioning of protein domains.
 
 ## Requirements
 
