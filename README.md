@@ -33,7 +33,7 @@ The scripts require input files appropriate to each analysis:
 - **NGS analysis:** FASTQ sequencing files, optionally compressed as .fastq.gz.
 - **AlphaFold 3 analyses:** Corresponding .json and .cif files from AlphaFold3 predictions. 
 
-Input files are not included in this repository unless explicitly provided. Users must supply the appropriate files and configure the input paths and analysis parameters before running the scripts.
+Input files are not included in this repository. Users must supply the appropriate files and configure the input paths and analysis parameters before running the scripts.
 
 ## Usage
 1. Clone or download this repository.
