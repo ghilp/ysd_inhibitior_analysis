@@ -40,7 +40,7 @@ Input files are not included in this repository. Users must supply the appropria
 1. Clone or download this repository.
 2. Install the required Python packages.
 3. Place the required input files in the desired directories.
-4. Update the input paths and analysis parameters in the relevant script.
+4. Update the input paths and analysis parameters in the relevant scripts.
 5. Run the scripts using Python.
 
 The scripts may require configuration changes to match the user's input directory structure and analysis settings.
