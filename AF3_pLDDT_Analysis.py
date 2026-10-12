@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 11 22:44:26 2026
-
-@author: ghilp
-"""
 
 from pathlib import Path
 import json
