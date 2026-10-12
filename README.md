@@ -24,6 +24,7 @@ Python 3 and the packages listed in `requirements.txt` are required.
 
 Install the dependencies using:
 
+```bash
 pip install -r requirements.txt
 
 ## Input files
