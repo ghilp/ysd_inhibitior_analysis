@@ -26,7 +26,7 @@ Install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Input files
 
 The scripts require input files appropriate to each analysis:
